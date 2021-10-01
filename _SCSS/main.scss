@@ -10,9 +10,18 @@ body{
     background-color:#f5f3f3;
     background-image: url(/assets/images/watercolor.png);
     background-repeat: repeat;
+    width: 100vw;
     #container{
-        padding-left: 5%;
-        padding-right: 5%;
-
+        height: 100vh;
+        width: 80%;
+        margin: auto;
+        #cardWrapper{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: .5vw;
+            img{
+                width: 100%;
+            }
+        }
     }
 }
