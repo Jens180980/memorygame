@@ -16,10 +16,24 @@ body {
   background-color: #f5f3f3;
   background-image: url(/assets/images/watercolor.png);
   background-repeat: repeat;
+  width: 100vw;
 }
 
 body #container {
-  padding-left: 5%;
-  padding-right: 5%;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+
+body #container #cardWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: .5vw;
+}
+
+body #container #cardWrapper img {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
