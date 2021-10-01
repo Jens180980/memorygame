@@ -1,1 +1,25 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body {
+  background-color: #f5f3f3;
+  background-image: url(/assets/images/watercolor.png);
+  background-repeat: repeat;
+}
+
+body #container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+/*# sourceMappingURL=main.css.map */

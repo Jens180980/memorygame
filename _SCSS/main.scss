@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color:#f5f3f3;
+    background-image: url(/assets/images/watercolor.png);
+    background-repeat: repeat;
+    #container{
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+}
